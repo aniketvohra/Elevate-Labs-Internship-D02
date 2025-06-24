@@ -8,7 +8,7 @@ Tools: Email client or saved email file (text), free online header analyzer.
 
 Deliverables: A report listing phishing indicators found
 
-
+<br><br>
 Step 1: Obtain phishing mail
 
 We can do this either by getting samples online or using the mails in the “spam” folder.
