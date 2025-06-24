@@ -1,0 +1,122 @@
+Delivered-To: aniketvohra69@gmail.com
+Received: by 2002:a05:6a11:e08c:b0:5e1:bf2:ef65 with SMTP id dm12csp3040644pxc;
+        Mon, 23 Jun 2025 23:53:39 -0700 (PDT)
+X-Received: by 2002:a05:600c:8b85:b0:439:4b23:9e8e with SMTP id 5b1f17b1804b1-4537c87be7bmr12094385e9.3.1750748019393;
+        Mon, 23 Jun 2025 23:53:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1750748019; cv=none;
+        d=google.com; s=arc-20240605;
+        b=NhYQa6unEbOININVkDpI3gxZXdt04X99kudd67lchBKbgKgqa1WrpBFClCwPh34jUP
+         93nBQZDEsokXUfPlxRviC/WIh9QSn44Da0YXII5TwlBLQKVpmqP6AUdc4KiDBnzRfufi
+         HJ50BPz3yVKgjV+oaq8+Tu5scQvtSBwoTbVdfaAdh5E9lRGoylZpvDFh1xS7J3GXtZ4o
+         2IIaiZAt1XzBGMW2vQk73YqyJAsEQGBjgMHPmq3+d/8Txi5Rk+GdqD4cUe++zEwl6wcJ
+         4w3OEn2tXyFWuOo6sDRjGY11Yxg04WeTK/kayi0c6NgntgE3XmuDN/d7/Eg31o1zOb+t
+         p+sg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=a259M2iqIoWFKLBh9cT238HvKpMt5QPKrYzqNWxYHIE=;
+        fh=8M6RAuftY5xlMOJxenVi48sy0xh9dHD+uwl4mv+K5aM=;
+        b=Ql5rCw/Dz5mIt99h7mKP+yde1hjkF/3lHu9gB3U9X9v2kaMkbKO7YbvDgyhn0eb/0P
+         sjGRdOabkPdsokkUHycJaug+gac5r63ScMW7dt0jXJmi84ejz9X9zbgo8agE9pmYaqnM
+         zhLe+zjNcmdZ7qerxfGxPxm2t9yULzVZH87334euCkOrXwYe2q69F6NcsniVV3hRoKB8
+         NrTDfMboa+5ZxXW/iPuJShmWou2RNOsi+aUAG0CTcTPldGCdxBlZektPTHbzxpZL2RVO
+         J4nj7oKMd9+YHYLyGNaMx1IvH4hpXfFGYkdHUbflVuXSPQvAatKqGOVY4gK3rBA9hCOH
+         /Ilg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=WLlHbaCd;
+       spf=pass (google.com: domain of darshilpipalia10@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=darshilpipalia10@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <darshilpipalia10@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5b1f17b1804b1-4535efbb401sor33355355e9.5.2025.06.23.23.53.39
+        for <aniketvohra69@gmail.com>
+        (Google Transport Security);
+        Mon, 23 Jun 2025 23:53:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of darshilpipalia10@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=WLlHbaCd;
+       spf=pass (google.com: domain of darshilpipalia10@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=darshilpipalia10@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1750748018; x=1751352818; dara=google.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=a259M2iqIoWFKLBh9cT238HvKpMt5QPKrYzqNWxYHIE=;
+        b=WLlHbaCd0PGvmhxjbrHUwsWzZy81sN26sMbegoYiszAOBHIXOCudZnn6Jas2rYCwUl
+         5oGgWAcRxLaLDsg06mk9HFucMGNongYxohz677/6ym+SdQwIFs2be3D3+g+rQMgNVvCp
+         oB17gyVnS4hXPghCHYcykBP1tozJJc/i3SxIiMjvm4/uLIVrJZfeXnrEr5hOadKS1P/R
+         tI99c+Vr+TqdSF4y1XUULqDhlK1iytQQobBA2Z3JVAJPWtzVe4BGE/FPoioC0ueEaCMK
+         vD7v1C2TSepJzVEIxDwsxdyHT3SBTXrEO1z5oyLKgCqQ3k0tmYICfSIb4dGujVF1wY5/
+         ZWZQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1750748018; x=1751352818;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=a259M2iqIoWFKLBh9cT238HvKpMt5QPKrYzqNWxYHIE=;
+        b=Ys24Kd4DSmR42/9BcZVYGMNKYeg0Nw4PVE9iAaBdLRBVB5Us0E3UPCa9TRxSxuz4RY
+         jaJxE1RWr4s7yRnx4WAKHH5eT1sJUUcavQBdYHuEGxPgD69a+o8ZXGd8N0wn2RPhOvGA
+         TrQPM6Q0hl2o4wXShPU7MbEoDJaV3RjZteQRMcpIk84yDyuI6xiOAX5ztfmU38LVruXB
+         tj7FlCLfJQL8oS+l/qipIK6oJ/ZZCuIlJRP50KQp9CazzuEfN4xeRgXg7u33Tctw8urF
+         1Dy2JwxoEJdCzVY3YCZiJrRUkhkEaVxsm2a371T0YV2LdGDYd10Wi5qPR4GZ+t2YovF/
+         fTUQ==
+X-Gm-Message-State: AOJu0Yw+d36Gq+pQ9RbCMmmwQtLcMfHdxFAZYUFTzVqZ11wuVJm9PcUu
+	9Ezx03A9FqQQDi9epYB3An2U3762P703I8V7GRT/cJs86qgRPYi3wHH4YnmWw51YnibNYYmgK1X
+	BkK9ZtZY7crleNjaaz9eipYFF7XMMASbBabCJ
+X-Gm-Gg: ASbGncsTwu4xgGTsR6o0RmgNRJiSFOryaDPkYgdk9nnGncOUJW4cwmB8EFRfNAL8op7
+	i7Qr3qGCMZqeqyB+KBkYGZGeS4CnIalCJook03wzzKaOCKtPIQ7oNQAY9n38wGEDOOO8LYyMZvK
+	nS8wglOot3Q0IWU8pjcKdVDyVp4csEGj5cOqgtn9D87SXaW4oNyCiYVIb+j28S2Cjr7JdjUYE6Z
+	UBuySHZog==
+X-Google-Smtp-Source: AGHT+IEqkhSboUicUYzFsnOjTxJoXJrypRD9d6pU0jnDCAAOkn7jSyeXm3KKIq0YtiNW2c6Y1+YlUnoWrawT3IXMrM4=
+X-Received: by 2002:a05:600c:3012:b0:450:d3a1:95e2 with SMTP id
+ 5b1f17b1804b1-4537b784570mr11146005e9.9.1750748018188; Mon, 23 Jun 2025
+ 23:53:38 -0700 (PDT)
+MIME-Version: 1.0
+From: Darshil Pipalia <darshilpipalia10@gmail.com>
+Date: Tue, 24 Jun 2025 12:23:26 +0530
+X-Gm-Features: Ac12FXwmGKfg27NCLYJEE1N-Vtgi5FAX1gWwRifzTK4a5n1T0Yt88T6_r5asiHg
+Message-ID: <CALaxtiwBxcMnSQSDkX5zM6ZfrE9A0Hp_wMjxG-EizA3NFNmJnw@mail.gmail.com>
+Subject: [IMPORTANT] Amazing Bank Offer For You!
+To: Aniket Vohra <aniketvohra69@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000b7260f06384bc923"
+
+--000000000000b7260f06384bc923
+Content-Type: text/plain; charset="UTF-8"
+
+Hi, I'm your bank relationship manager contacting you regarding a new offer
+under our loyalty program for our long term customers.
+
+Please share your credit card details to apply for your enrollment for this
+offer.
+
+Under this offer you can win 1g of gold for FREE!
+1000 Users will be chosen at random in a lucky draw system to win 1g of
+FREE gold each.
+
+Only users receiving this email are eligible to participate.
+
+If you have any questions, please reply to this email with your phone
+number, email id, customer id & net banking password. We will try to reach
+out to you as soon as possible.
+
+Thank You.
+Regards.
+
+--000000000000b7260f06384bc923
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi, I&#39;m your bank relationship manager contacting you =
+regarding a new offer under our loyalty=C2=A0program for our long term cust=
+omers.<div><br></div><div>Please share your credit card details to apply fo=
+r your enrollment for this offer.</div><div><br></div><div>Under this offer=
+ you can win 1g of gold for FREE!</div><div>1000 Users will be chosen at ra=
+ndom in a lucky draw system to win 1g of FREE gold each.</div><div><br></di=
+v><div>Only users receiving this email are eligible to participate.</div><d=
+iv><br></div><div>If you have any questions, please reply to this email wit=
+h your phone number, email id, customer id &amp; net banking password. We w=
+ill try to reach out to you as soon as possible.</div><div><br></div><div>T=
+hank You.</div><div>Regards.</div></div>
+
+--000000000000b7260f06384bc923--
