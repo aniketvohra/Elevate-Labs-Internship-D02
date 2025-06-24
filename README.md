@@ -3,7 +3,9 @@ ELEVATE LABS - CYBER SECURITY INTERNSHIP
 TASK 2: Analyze a Phishing Email Sample.
 
 Objective: Identify phishing characteristics in a suspicious email sample.
+
 Tools: Email client or saved email file (text), free online header analyzer.
+
 Deliverables: A report listing phishing indicators found
 
 Step 1: Obtain phishing mail
@@ -42,4 +44,5 @@ Step 7: Spot Grammar and Spelling Errors
 Some phishing emails contain grammar and spelling errors which is an indicator of phishing mail. But advanced phishing mails have reduced these errors.
 The mail we have doesn’t have any errors. But this doesn’t mean its not a phishing mail.
 
+THe phishing report is uploaded.
 
