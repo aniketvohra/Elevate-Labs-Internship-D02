@@ -9,7 +9,7 @@ Deliverables: A report listing phishing indicators found
 Step 1: Obtain phishing mail
 We can do this either by getting samples online or using the mails in the “spam” folder.
 
-<img src="images/1.">
+<img src="images/1.png">
 
 <img src="images/2.png">
 
