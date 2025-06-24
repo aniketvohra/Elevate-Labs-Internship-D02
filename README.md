@@ -3,6 +3,7 @@ ELEVATE LABS - CYBER SECURITY INTERNSHIP
 <br>
 TASK 2: Analyze a Phishing Email Sample.
 
+<br>
 Objective: Identify phishing characteristics in a suspicious email sample.
 
 Tools: Email client or saved email file (text), free online header analyzer.
@@ -44,8 +45,8 @@ There is no links or attachments in the email
 Step 5: Look for Urgent or Threatening Language.
 
 The subject contains “IMPORTANT” in full case which legit emails do not use.
-\
-br>
+
+<br>
 Step 6: Examine the message body
 
 “If you have any questions, please reply to this email with your phone number, email id, customer id & net banking password. We will try to reach out to you as soon as possible.”
