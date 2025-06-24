@@ -9,9 +9,9 @@ Deliverables: A report listing phishing indicators found
 Step 1: Obtain phishing mail
 We can do this either by getting samples online or using the mails in the “spam” folder.
 
-<img src="images/1.png>
+<img src="images/1.">
 
-<img src="images/2.png>
+<img src="images/2.png">
 
 Step 2: Analyze Sender’s Email Address
 Darshil Pipalia <darshilpipalia10@gmail.com>
@@ -23,7 +23,7 @@ Hence, the sender's email address is suspicious.
 Step 3: Check Email Headers
 Open the email -> Click on 3 dots -> Click on “Show Original” -> Copy the email header -> Paste it in an online email header analyzer.
 
-<img src="images/3.png>
+<img src="images/3.png">
 
 The header has passed all the checks.
 
