@@ -1,7 +1,6 @@
 ELEVATE LABS - CYBER SECURITY INTERNSHIP
 
 <br>
-
 TASK 2: Analyze a Phishing Email Sample.
 
 <br>
